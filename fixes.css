@@ -6,6 +6,12 @@
   --card1-bg-hover: #00000076;
 }
 
+/* Audio track background transparency fix */
+.wrapperAudio_f72aac {
+  border: 1px solid var(--card1-border);
+  background-color: var(--card1-bg);
+}
+
 /* Friends Active Now Activity transparency fix */
 .inset_ac5d22 {
   background-color: transparent;
@@ -89,52 +95,6 @@
 /* Listen Along Invite text field fix */
 .textArea_a42405 {
   background-color: #00000042;
-}
-
-/* Read All Vencord Plugin button fix */
-.theme-dark .scroller_fea3ef .button_dd4f85.sizeMin_dd4f85::before {
-  content: "Read All";
-  min-width: 48px;
-  min-height: 48px;
-  height: 48px;
-  font-size: 10px;
-}
-
-.theme-dark .scroller_fea3ef .button_dd4f85.sizeMin_dd4f85 {
-  min-width: 48px;
-  min-height: 20px;
-  height: 0px;
-  font-size: 0px;
-}
-
-/* Spotify Vencord Plugin transparency fix */
-.theme-dark #vc-spotify-player {
-  background: transparent;
-}
-
-/* Record Voice Message Vencord Plugin fix */
-.theme-dark .header_f9a4c9 {
-  padding-bottom: 0px;
-}
-
-.vc-vmsg-buttons {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  gap: .5em;
-  justify-content: start;
-}
-
-.container_d6cb89 {
-  background-color: #1b1b1bb4;
-}
-
-/* Bottom left call details fix */
-.connection_adcaac {
-  margin-top: 10px;
-}
-
-.inner_adcaac {
-  margin-bottom: 10px;
 }
 
 /* Bottom left user info transparency fix */
@@ -226,7 +186,7 @@ button.button_adca65.enabled_adca65:hover {
 
 /* Settings > Server Boost */
 .gradient_e74e54 {
-    border-radius: 8px 8px 4px 4px;
+  border-radius: 8px 8px 4px 4px;
 }
 
 .wrapper_d73dcb {
@@ -299,6 +259,52 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 /* Vencord */
+/* Read All Vencord Plugin button fix */
+.theme-dark .scroller_fea3ef .button_dd4f85.sizeMin_dd4f85::before {
+  content: "Read All";
+  min-width: 48px;
+  min-height: 48px;
+  height: 48px;
+  font-size: 10px;
+}
+
+.theme-dark .scroller_fea3ef .button_dd4f85.sizeMin_dd4f85 {
+  min-width: 48px;
+  min-height: 20px;
+  height: 0px;
+  font-size: 0px;
+}
+
+/* Spotify Vencord Plugin transparency fix */
+.theme-dark #vc-spotify-player {
+  background: transparent;
+}
+
+/* Record Voice Message Vencord Plugin fix */
+.theme-dark .header_f9a4c9 {
+  padding-bottom: 0px;
+}
+
+.vc-vmsg-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: .5em;
+  justify-content: start;
+}
+
+.container_d6cb89 {
+  background-color: #1b1b1bb4;
+}
+
+/* Bottom left call details fix */
+.connection_adcaac {
+  margin-top: 10px;
+}
+
+.inner_adcaac {
+  margin-bottom: 10px;
+}
+
 /* Settings > Vencord */
 .vc-settings-card .button_dd4f85 {
   margin: 20px;
