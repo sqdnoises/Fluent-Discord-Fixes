@@ -1,0 +1,338 @@
+/* Variables */
+:root {
+  --card1-border: #0000007e;
+  --card1-bg: #00000055;
+  --card1-border-hover: #0000009c;
+  --card1-bg-hover: #00000076;
+}
+
+/* Friends Active Now Activity transparency fix */
+.inset_ac5d22 {
+  background-color: transparent;
+}
+
+.section_cd82a7 {
+  background-color: #1010104e;
+}
+
+/* Shop background transparency fix */
+.shop_e77fa3, .shopScroll_e77fa3, .pageWrapper_e77fa3 {
+  background-color: transparent;
+}
+
+.headerBar_d8354c {
+  background-color: #00000090 !important;
+  border-radius: 4px;
+  backdrop-filter: blur(6px);
+  background-blend-mode: overlay;
+}
+
+/* Message actions buttons inconsistency fix */
+.wrapper_f7e168 {
+  background-color: #10101074;
+  backdrop-filter: blur(1px);
+  background-blend-mode: overlay;
+}
+
+.button_f7e168 {
+  border-radius: 4px;
+}
+
+.hoverButtonGroup_d0395d {
+  background-color: #10101074;
+  backdrop-filter: blur(6px);
+  background-blend-mode: overlay;
+}
+
+/* Member list background fix */
+.member_cbd271 {
+  background: transparent;
+}
+
+/* File upload background fix */
+.upload_df1eaf {
+  border: 1px solid var(--card1-border);
+  background-color: var(--card1-bg);
+}
+
+/* App command background and app icons fix */
+.selected_c9d951, .selected_a69fe5 {
+  border: 1px solid hsla(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness)), 0.8);
+  border-radius: 4px;
+  background-color: hsla(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness)), 0.2) !important;
+}
+
+.selected_c9d951:hover, .selected_a69fe5:hover {
+  border: 1px solid hsla(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness)), 1);
+  background-color: hsla(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness)), 0.5);
+}
+
+.selectable_a69fe5, .selectable_a69fe5:hover, .selectable_c9d951, .selectable_c9d951:hover {
+  background-color: transparent;
+}
+
+.builtInSeparator_efd8e6 {
+  margin-left: 10px;
+}
+
+.wrapper_c9d951 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.wrapper_ba23fe {
+  background-color: transparent;
+}
+
+/* Listen Along Invite text field fix */
+.textArea_a42405 {
+  background-color: #00000042;
+}
+
+/* Read All Vencord Plugin button fix */
+.theme-dark .scroller_fea3ef .button_dd4f85.sizeMin_dd4f85::before {
+  content: "Read All";
+  min-width: 48px;
+  min-height: 48px;
+  height: 48px;
+  font-size: 10px;
+}
+
+.theme-dark .scroller_fea3ef .button_dd4f85.sizeMin_dd4f85 {
+  min-width: 48px;
+  min-height: 20px;
+  height: 0px;
+  font-size: 0px;
+}
+
+/* Spotify Vencord Plugin transparency fix */
+.theme-dark #vc-spotify-player {
+  background: transparent;
+}
+
+/* Record Voice Message Vencord Plugin fix */
+.theme-dark .header_f9a4c9 {
+  padding-bottom: 0px;
+}
+
+.vc-vmsg-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: .5em;
+  justify-content: start;
+}
+
+.container_d6cb89 {
+  background-color: #1b1b1bb4;
+}
+
+/* Bottom left call details fix */
+.connection_adcaac {
+  margin-top: 10px;
+}
+
+.inner_adcaac {
+  margin-bottom: 10px;
+}
+
+/* Bottom left user info transparency fix */
+button.button_adca65.enabled_adca65:hover {
+  background-color: #96969627;
+}
+
+/* Settings > My Account Inconsistencies fix */
+.badgeList_b69b77 {
+  background-color: #00000019;
+}
+
+.theme-dark .button_dd4f85.lookFilled_dd4f85.colorRed_dd4f85 {
+  background-color: #4e0807;
+}
+
+/* Settings > Profiles Inconsistencies fix */
+.flairContainer_b82429 {
+  margin-top: 34px;
+}
+
+/* Settings > Family Center Inconsistencies fix */
+/* - Activity Tab */
+.show-redesigned-icons .chatCheckIcon_d00e26 {
+  margin-right: 10px;
+}
+.icon_d7c696 {
+  margin-right: 10px;
+}
+
+.circle_d7c696 {
+  background: transparent;
+}
+
+.iconContainer_e677b7 {
+  background: transparent;
+}
+
+.row_e677b7 {
+  background: #1e1f227f;
+}
+
+/* - My Family Tab */
+:root {
+  --text-brand: white;
+}
+
+.stepNumber_f70f48 {
+  background: #1010104e;
+}
+
+/* Settings > Authorized Apps Inconsistencies fix */
+.container_c18ec9 {
+  background-color: #0000004f;
+}
+
+/* Settings > Nitro */
+.premiumTrialAcknowledgedBadge_b089d3 {
+  background: linear-gradient(to bottom right, rgba(175, 119, 243, .7), rgba(67, 113, 221, .7));
+  backdrop-filter: blur(1px);
+  background-blend-mode: overlay;
+}
+
+.premiumTrialAcknowledgedBadge_b089d3 div {
+  margin-right: 5px;
+}
+
+.perkCard_d611db {
+  border: 1px solid var(--card1-border);
+  background-color: var(--card1-bg);
+}
+
+.innerWrapper_c511e4 {
+  background: linear-gradient(to bottom right, rgba(175, 119, 243, 0.4), rgba(67, 113, 221, 0.4));
+  backdrop-filter: blur(1px);
+  background-blend-mode: overlay;
+}
+
+.lookFilled_dd4f85.colorBrandInverted_dd4f85 {
+  transition: color 0.1s ease, background-color 0.1s ease;
+}
+
+.lookFilled_dd4f85.colorBrandInverted_dd4f85:hover {
+  color: white;
+  background: linear-gradient(to bottom right, #af77f3, #4371dd);
+  backdrop-filter: blur(1px);
+  background-blend-mode: overlay;
+}
+
+/* Settings > Server Boost */
+.gradient_e74e54 {
+    border-radius: 8px 8px 4px 4px;
+}
+
+.wrapper_d73dcb {
+  border: 1px solid var(--card1-border);
+  border-top: 0px;
+  background-color: var(--card1-bg);
+  border-radius: 4px;
+}
+
+.wrapper_d73dcb h2 {
+  padding-top: 6px;
+}
+
+.wrapper_d73dcb div {
+  padding-bottom: 6px;
+}
+
+.copy_d4ec61 {
+  width: 100%;
+  position: relative;
+}
+
+.copy_d4ec61 button {
+  position: absolute;
+  right: 0;
+}
+
+.theme-dark .button_dd4f85.lookLink_dd4f85 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.recommendedServerCard_ebbdfd, .wrapper_d4ec61, .card_d1fdce, .wrapper_e55051 {
+  border: 1px solid var(--card1-border);
+  background-color: var(--card1-bg);
+}
+
+/* Settings > Billing */
+
+/* Help! Can't seem to make Transaction History box transparent. */
+/* .paymentPane_f66684 {
+  background-color: transparent;
+} */
+
+.paymentRow_f66684, .pageActions_d6a4eb {
+  border: 1px solid var(--card1-border);
+  background-color: var(--card1-bg);
+}
+
+/* Settings > Appearance */
+.header_f45ea6 {
+  margin-left: 16px;
+}
+
+.header_df4d02 {
+  padding: 10px 20px;
+  padding-top: 16px;
+}
+
+.presets_df4d02 {
+  padding: 16px;
+  margin-bottom: 0;
+}
+
+/* Settings > Voice & Video */
+
+.soundButtonSettingContainer_c801bb, .cameraWrapper_ff1ac9 {
+  border: 1px solid var(--card1-border);
+  background-color: var(--card1-bg);
+}
+
+/* Vencord */
+/* Settings > Vencord */
+.vc-settings-card .button_dd4f85 {
+  margin: 20px;
+}
+
+.vc-settings-quickActions-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .5em;
+  justify-content: start;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+.vc-settings-quickActions-pill {
+  background-color: #0000004c;
+  border-radius: 4px;
+  transition: background-color 0.1s ease;
+}
+
+.vc-settings-quickActions-pill:hover {
+  background-color: #0000007f;
+}
+
+/* Settings > Plugins */
+.vc-addon-card {
+  border: 1px solid var(--card1-border);
+  background-color: var(--card1-bg);
+}
+
+.vc-addon-card:hover {
+  border: 1px solid var(--card1-border-hover);
+  background-color: var(--card1-bg-hover);
+}
